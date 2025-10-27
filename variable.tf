@@ -37,3 +37,8 @@ variable "Egress_VPC_private_subnet_name" {
   description = "Name of private subnet in Egress VPC"
   type        = string
 }
+
+variable "Transit_Gateway_name" {
+  description = "The name of the Transit Gateway"
+  type        = string
+}
